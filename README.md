@@ -8,7 +8,7 @@
   company effectively target strategies to improve employee satisfaction to specific groups of 
  employees based on their characteristics and performance?”
 
-The first step to creating those strategies is to segment the company’s 1,470 employees into clusters #based on key characteristics and performance indicators. 
+The first step to creating those strategies is to segment the company’s 1,470 employees into clusters based on key characteristics and performance indicators. 
 
  Variables: The variables you will use for this analysis are:
  Age: Age of employee in years
@@ -17,7 +17,7 @@ The first step to creating those strategies is to segment the company’s 1,470 
  YearsAtCompany: The total number of years the employee has been with the company
 
 
- Step one is to segment customers using the four variables Age, MonthlyIncome, PercentSalaryHike, YearAtCompany.
+ # Part one: Segment customers using the four variables Age, MonthlyIncome, PercentSalaryHike, YearAtCompany.
 
 install.packages("tidyverse")
 install.packages("cluster")
