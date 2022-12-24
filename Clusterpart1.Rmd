@@ -1,0 +1,38 @@
+---
+title: "Cluster Analysis"
+
+
+---
+
+```{r}
+install.packages("tidyverse")
+install.packages("cluster")
+install.packages("fpc")
+
+library(tidyverse)
+library(cluster)
+library(fpc)
+```
+
+## R Markdown
+
+
+```{r}
+#create data frame
+jobdf <- read.csv("Employees.csv")
+View(jobdf)
+set.seed(42)
+
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
