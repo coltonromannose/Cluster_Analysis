@@ -1,7 +1,7 @@
 # Cluster_Analysis
 
 
-# Data: Employees.csv (download from Module 2 on Brightspace)
+
 # We are using a dataset developed by IBM data scientists and used to look at factors related to 
 # employee job satisfaction and attrition. The original dataset is accessible through Kaggle. 
 
