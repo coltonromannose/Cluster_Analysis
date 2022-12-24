@@ -1,4 +1,4 @@
-# Cluster Analysis (K-means, hierarchical)
+# Cluster Analysis 
 
 
  I used a dataset developed by IBM data scientists which was used to look at factors related to employee job satisfaction and attrition. The original dataset is accessible through Kaggle. I conducted a cluster analysis (K-means & hierarchical) in order to answer the business question,  “How can our 
