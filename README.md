@@ -1,14 +1,13 @@
 # Cluster Analysis (K-means, hierarchical)
 
 
-
- I used a dataset developed by IBM data scientists which was used to look at factors related to employee job satisfaction and attrition. The original dataset is accessible through Kaggle. This dataset contains data about the 
-
- Objective: Your business question is: “How can our 
+ I used a dataset developed by IBM data scientists which was used to look at factors related to employee job satisfaction and attrition. The original dataset is accessible through Kaggle. I conducted a cluster analysis (K-means & hierarchical) in order to answer the business question,  “How can our 
  company effectively target strategies to improve employee satisfaction to specific groups of 
  employees based on their characteristics and performance?”
+ 
 
-The first step to creating those strategies is to segment the company’s 1,470 employees into clusters based on key characteristics and performance indicators such as:
+
+My first step to creating those strategies is to segment the company’s 1,470 employees into clusters based on key characteristics and performance indicators such as:
 
  Variables: The variables I used for this analysis are:
  
