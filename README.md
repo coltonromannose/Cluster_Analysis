@@ -11,11 +11,13 @@
 The first step to creating those strategies is to segment the company’s 1,470 employees into clusters based on key characteristics and performance indicators. 
 
  Variables: The variables I used for this analysis are:
- Age: Age of employee in years
- MonthlyIncome: How much the employee earns per month
- PercentSalaryHike: The percentage increase in salary over two years
- YearsAtCompany: The total number of years the employee has been with the company
+ 
+ -Age: Age of employee in years
+ 
+ -MonthlyIncome: How much the employee earns per month
+ 
+ -PercentSalaryHike: The percentage increase in salary over two years
+ 
+ -YearsAtCompany: The total number of years the employee has been with the company
 
-
- # Part one: Segment customers using the four variables Age, MonthlyIncome, PercentSalaryHike, YearAtCompany.
 
