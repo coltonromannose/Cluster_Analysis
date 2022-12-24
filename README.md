@@ -2,7 +2,7 @@
 
 
 
-# We are using a dataset developed by IBM data scientists and used to look at factors related to 
+# I used a dataset developed by IBM data scientists and used to look at factors related to 
 # employee job satisfaction and attrition. The original dataset is accessible through Kaggle. 
 
 # Background: For this assignment, you work in HR and you would like to develop strategies to address # the job satisfaction needs of your company’s employees. Your business question is: “How can our 
