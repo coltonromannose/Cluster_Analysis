@@ -2,12 +2,11 @@
 
 
 
-# I used a dataset developed by IBM data scientists and used to look at factors related to 
-# employee job satisfaction and attrition. The original dataset is accessible through Kaggle. 
+# I used a dataset developed by IBM data scientists and used to look at factors related to employee job satisfaction and attrition. The original dataset is accessible through Kaggle. 
 
-# Background: For this assignment, you work in HR and you would like to develop strategies to address # the job satisfaction needs of your company’s employees. Your business question is: “How can our 
-# company effectively target strategies to improve employee satisfaction to specific groups of 
-# employees based on their characteristics and performance?”
+ Background: For this assignment, you work in HR and you would like to develop strategies to address  the job satisfaction needs of your company’s employees. Your business question is: “How can our 
+  company effectively target strategies to improve employee satisfaction to specific groups of 
+ employees based on their characteristics and performance?”
 
 # The first step to creating those strategies is to segment the company’s 1,470 employees into clusters #based on key characteristics and performance indicators. 
 
