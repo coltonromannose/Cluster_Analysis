@@ -1,18 +1,37 @@
 # Cluster_Analysis
 
 
-# Examine dataset developed by IBM data scientists to look at factors related to employee job satisfaction and attrition.
+# Data: Employees.csv (download from Module 2 on Brightspace)
+# We are using a dataset developed by IBM data scientists and used to look at factors related to 
+# employee job satisfaction and attrition. The original dataset is accessible through Kaggle. 
+
+# Background: For this assignment, you work in HR and you would like to develop strategies to address # the job satisfaction needs of your company’s employees. Your business question is: “How can our 
+# company effectively target strategies to improve employee satisfaction to specific groups of 
+# employees based on their characteristics and performance?”
+
+# The first step to creating those strategies is to segment the company’s 1,470 employees into clusters #based on key characteristics and performance indicators. 
+
+# Variables: The variables you will use for this analysis are:
+
+# Age: Age of employee in years
+# MonthlyIncome: How much the employee earns per month
+# PercentSalaryHike: The percentage increase in salary over two years
+# YearsAtCompany: The total number of years the employee has been with the company
+
 
 # Step one is to segment customers using the four variables Age, MonthlyIncome, PercentSalaryHike, YearAtCompany.
 
 install.packages("tidyverse")
 install.packages("cluster")
 install.packages("fpc")
+install.packages("factoextra")
+install.packages("janitor")
 
 library(tidyverse)
 library(cluster)
 library(fpc)
-
+library("factoextra")
+library("janitor")
 
 #create data frame
 jobdf <- read.csv("Employees.csv")
@@ -87,6 +106,10 @@ summarize_all(quantdfk4, mean)
 quantdfk4 %>%
   group_by(clusterID) %>%
   summarize_all(mean)
+  
+##Part 2
+
+
 
 avg_salary <- mean(quantdfk4$MonthlyIncome)
 
