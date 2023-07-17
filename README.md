@@ -18,7 +18,7 @@
 
 My first step to creating those strategies is to segment the company’s 1,470 employees into clusters based on key characteristics and performance indicators such as:
 
- Variables: The variables I used for this analysis are:
+ Variables:
  
  -Age: Age of employee in years
  
