@@ -28,7 +28,7 @@ My first step to creating those strategies is to segment the company’s 1,470 e
  
  -YearsAtCompany: The total number of years the employee has been with the company
  
-Part 1 consisted of conducting a k-means cluster analysis using the four variables above.
+Part 1 consisted of conducting a k-means cluster analysis using the four variables above. I used an elbow plot to determine which cluster was ideal for my purposes.
  -This analysis enabled us to ascertain demographic information about each cluster as well as sizes.
  
  -Cluster 1 = 247 has the second highest income, the oldest age, average salary hike, and the least years at the company.
